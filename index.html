@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto YouTube Downloader (GUI)</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; margin: 20px; }
+        h1 { color: #333; }
+        h2 { color: #555; border-bottom: 1px solid #eee; padding-bottom: 5px; margin-top: 20px; }
+        ul { list-style-type: disc; margin-left: 20px; }
+        pre { background-color: #f4f4f4; padding: 10px; border-radius: 5px; overflow-x: auto; }
+        code { font-family: monospace; }
+    </style>
+</head>
+<body>
+    <h1>🚀 Auto YouTube Downloader (GUI)</h1>
+    <p><strong>Auto YouTube Downloader</strong> is a high-performance, user-friendly Graphical User Interface (GUI) for downloading YouTube videos with ease. Built with Python and powered by the industry-standard <code>yt-dlp</code> engine, this tool is optimized for speed, simplicity, and cross-platform compatibility.</p>
+
+    <h2>✨ Key Features</h2>
+    <ul>
+        <li><strong>High-Speed Downloads:</strong> Utilizes multi-threaded concurrent fragment downloading (up to 10 simultaneous connections) for maximum bandwidth utilization.</li>
+        <li><strong>Asynchronous GUI:</strong> Designed with Python's <code>threading</code> module to ensure the interface remains responsive and never "Freezes" during a download.</li>
+        <li><strong>Custom Save Locations:</strong> Includes a built-in directory browser to choose exactly where your media is saved.</li>
+        <li><strong>Auto-Reveal:</strong> Automatically opens your system's file explorer (Windows Explorer, macOS Finder, or Linux XDG) exactly where the file was downloaded once finished.</li>
+        <li><strong>Smart Buffer Management:</strong> Optimized 16K buffer sizes and disabled filesystem <code>mtime</code> modification to ensure the fastest possible disk write speeds.</li>
+        <li><strong>Cross-Platform Support:</strong> Seamlessly runs on Windows, macOS, and Linux with native icon support.</li>
+        <li><strong>No Bloat:</strong> No ads, no subscriptions, and zero tracking. Just open-source power.</li>
+    </ul>
+
+    <h2>📋 Requirements</h2>
+    <p>While the package handles its own Python dependencies, for high-resolution video merging (e.g., 4K) and optimal performance, it is highly recommended to have <strong>FFmpeg</strong> installed on your system.</p>
+    <ul>
+        <li><strong>Windows:</strong> Install via Chocolatey (<code>choco install ffmpeg</code>) or download from the official site.</li>
+        <li><strong>macOS:</strong> <code>brew install ffmpeg</code> (requires Homebrew)</li>
+        <li><strong>Linux:</strong> <code>sudo apt install ffmpeg</code> or <code>brew install ffmpeg</code> (requires Linuxbrew)</li>
+    </ul>
+
+    <h2>Installation</h2>
+    <p>You can download the AutoYTDownloader via PyPI</p>
+    <pre><code>pip install autoytdownload</code></pre>
+    <p>Then, run <code>auto-yt-dl</code> in the directory box of the folder you want to install it.</p>
+
+    <h2>Website</h2>
+    <p>You can check out the website here ==&gt; <a href="https://autoytdownload.enesyali.site">autoytdownload.enesyali.site</a></p>
+
+    <h2>Support this project</h2>
+    <p>You can donate and support to the project via my <a href="https://kofi.com/enesy">Ko-Fi</a> page.</p>
+</body>
+</html>
